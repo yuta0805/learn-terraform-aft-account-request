@@ -19,4 +19,9 @@ module "sandbox" {
     change_requested_by = "AFT learn"
     change_reason       = "Learn AWS Control Tower Account Factory for Terraform"
   }
+
+  custom_fields = {
+    group = "non-prod"
+  }
+
 }
